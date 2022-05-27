@@ -25,4 +25,4 @@ model.compile(optimizer="adam",loss="sparse_categorical_crossentropy",metrics=["
 
 model.fit(x_train,y_train,epochs=4)
 print(model.evaluate(x_ev,y_ev))
-model.save("digit.model")
+model.save("digit.h5")
